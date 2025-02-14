@@ -64,6 +64,11 @@ export const Pages: CollectionConfig<'pages'> = {
       required: true,
     },
     {
+      name: 'richText',
+      type: 'textarea',
+      required: false,
+    },
+    {
       type: 'tabs',
       tabs: [
         {
